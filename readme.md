@@ -37,6 +37,14 @@ https://claude.com/pricing
 - Control what data is shared with Anthropic: https://code.claude.com/docs/en/data-usage  
 - Be aware of prompt injection if you process any external user input, besides other security considerations: https://code.claude.com/docs/en/security  
 
+## Optional: Install Windwos Terminal
+
+Windows terminal is the official modern, fast, efficient, powerful, and productive terminal application for users of command-line tools and shells. 
+
+https://apps.microsoft.com/detail/9n0dx20hk701
+
+**Ad:** https://www.youtube.com/watch?v=8gw0rXPMMPE
+
 ## Install Claude Code
 
 Note: Subscription needed.
@@ -59,6 +67,11 @@ NOTE: If installing with NPM, you also need to install Node.js 18+
 Navigate to your project directory and run claude.
 ```
 
+## Updating Claude Code 
+
+- `claude update` update to latest version  
+- `claude --version` check current version  
+
 ## Start a sesison
 
 `claude --dangerously-skip-permissions` to bypass constant requests for approval beofre taking actions
@@ -71,27 +84,39 @@ or
 
 ## Basic slash commands
 
-`/login` needed the fist time you use claude code to authenticate with your account
+- `/login` needed the fist time you use claude code to authenticate with your account
+- `/copy` copies a summary of the work done after claude is done - working
+- `/clear` clears memory and starts a clean new chat session
+- `/model` switch between available models
+- `/context` check current chat memory utlization
 
-`/copy` copies a summary of the work done after claude is done working
+  ![alt text](image-5.png)
 
-`/clear` clears memory and starts a clean new chat session
+- `/status` check remaining available quota (5 hours limit and, weekly limit) (use the tab button to jump to the Usage tab)
 
-`/model` switch between available models
+  ![alt text](image-4.png)
 
-`/context` check current chat memory utlization
+-  `/voice` toggle voice to be able to transcribe your prompts
 
-![alt text](image-5.png)
+## Basic keyboard shortcuts
 
-`/status` check remaining available quota (5 hours limit and, weekly limit) (use the tab button to jump to the Usage tab)
+- `shift + tab` cycle between modes (plan, manual approve, force approve)  
+- `ctr +j` new line
+- `alt + v` paste images and files into your terminal
+- `ctr + c` cancel current work
+- `ctr + c (twice)` exit session
 
-![alt text](image-4.png)
+<!-- ## Basic workflow
 
+- 
+- 
+- 
+- 
+-  -->
 
-## Generate commit message 
+<!-- ## Generate commit message 
 
-![alt text](image.png)
-
+![alt text](image.png) -->
 
 ## Appendix: Deploy your site to netlify
 
