@@ -74,6 +74,10 @@ Navigate to your project directory and run claude.
 
 ## Start a sesison
 
+- `claude` to start claude in regular mode (requests for approval before taking many actions)
+
+  or
+
 - `claude --dangerously-skip-permissions` to bypass constant requests for approval beofre taking actions
 
   or
