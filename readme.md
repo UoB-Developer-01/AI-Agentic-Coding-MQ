@@ -74,13 +74,13 @@ Navigate to your project directory and run claude.
 
 ## Start a sesison
 
-`claude --dangerously-skip-permissions` to bypass constant requests for approval beofre taking actions
+- `claude --dangerously-skip-permissions` to bypass constant requests for approval beofre taking actions
 
-or
+  or
 
-`claude remote-control` to be able to control the session from any device including your mobile
+- `claude remote-control` to be able to control the session from any device including your mobile
 
-![alt text](images/image-2.png)
+  ![alt text](images/image-2.png)
 
 ## Basic slash commands
 
@@ -118,15 +118,15 @@ or
 
 ![alt text](image.png) -->
 
-## Appendix: Deploy your site to netlify
+<!-- ## Appendix: Deploy your site to netlify
 
-If you have website you can freely host it on netlify. 
+If you have a website you can freely host it on netlify. 
 
 ![alt text](image-1.png)
 
 ![alt text](image-3.png)
 
-![alt text](image-2.png)
+![alt text](image-2.png) -->
 
 
 ## Appendix: Setup the AI agent CLI tool to trigger an audio notification when done or in need of assistance
